@@ -55,6 +55,8 @@ This simply requires installing the social network's `integration` in the `modul
 - Use `/kpm config` with appropriate arguments *(account email, account password, etc.)* to set up the integration for connecting with the social network. Specific arguements and instructions on how to set them can be found in the integration's documentation.
 - Use `/kpm start <integration_name>` to start the integration.
 
+**HINT**: Once an integration has been successfully installed, you can start it next time while starting Concierge itself using `node main.js <integration_name>`
+
 Why not try integrating Concierge with Facebook by following the instructions [here](https://github.com/concierge/facebook).
 
 Links to configuring other integrations can be found in the documentation section below.
